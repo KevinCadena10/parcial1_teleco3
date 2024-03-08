@@ -7,11 +7,10 @@ Para empezar con la cofiguracion de nuestro archivo PAM se hace la instalalcion 
 apt-get update
 apt-get install apache2 libapache2-mod-authnz-pam
 ```
-
 Despues de la instalacion se creo la carpeta archivos_privados de la sigiente manera
-
+```bash
 mkdir /var/www/html/archivos_privados
-
+```
 Luego de eso se le cambio la propiedad la carpeta por la de www-data
 
 chown www-data.www-data /var/www/html/archivos_privados -R
