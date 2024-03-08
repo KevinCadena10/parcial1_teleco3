@@ -1,7 +1,12 @@
+# Autenticacion PAM
+
+## Instalacion
 Para empezar con la cofiguracion de nuestro archivo PAM se hace la instalalcion de la autenticacion
 
+```bash
 apt-get update
 apt-get install apache2 libapache2-mod-authnz-pam
+```
 
 Despues de la instalacion se creo la carpeta archivos_privados de la sigiente manera
 
