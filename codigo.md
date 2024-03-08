@@ -86,7 +86,7 @@ Con todo lo anterior se realizo la configuracion de la autenticacion PAM
 Para el ngrok se realizo la instalacion de este con el siguiente comando para obtener el archivo zip
 ```bash
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-````
+```
 luego se instalo el unzip para poder obtener el archivo
 ```bash
 sudo apt install unzip
