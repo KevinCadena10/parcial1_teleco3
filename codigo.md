@@ -22,7 +22,7 @@ Luego se edito la configuracion por default de los sitios de apache con el sigui
 sudo vim /etc/apache2/sites-enabled/000-default.conf
 ```
 Al final de el archivo antes de que cerrar la etiqueta virtualhost debe quedar asi
-````bash
+```bash
 <VirtualHost *:80>
         . . . cofiguracion anterior
 
