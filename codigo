@@ -69,7 +69,10 @@ vim /etc/pam.d/apache
 
 luego se modificaron las lineas de codigo por
 
-auth       sufficient     pam_listfile.so item=user sense=deny file=/etc/apache2/denied_users                                                          auth       sufficient     pam_auth.so                                                                                                                  account    required      pam_unix.so                                                                                                                   password   sufficient     pam_unix.so nullok  
+auth       sufficient     pam_listfile.so item=user sense=deny file=/etc/apache2/denied_users
+auth       sufficient     pam_auth.so
+account    required      pam_unix.so
+password   sufficient     pam_unix.so nullok
 
 Con todo lo anterior se realizo la configuracion de la autenticacion PAM
 
